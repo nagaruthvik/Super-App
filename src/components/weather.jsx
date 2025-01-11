@@ -15,7 +15,7 @@ const Weather = () => {
     const getWeather = async () => {
       try {
         const response = await fetch(
-          "http://api.weatherapi.com/v1/current.json?key=bf9f4c4526984c68ae345810251101&q=vijayawada&aqi=no"
+          "https://api.weatherapi.com/v1/current.json?key=bf9f4c4526984c68ae345810251101&q=vijayawada&aqi=no"
         );
         const weatherData = await response.json();
 
