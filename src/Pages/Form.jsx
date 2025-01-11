@@ -59,7 +59,7 @@ export default function Form() {
             
             <div className={styles.imagecont}>
                 <h1>Discover new things on Superapp</h1>
-                <img src={img1} alt="" />
+                <img src={img1} alt="no image" />
 
 
             </div>
