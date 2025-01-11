@@ -8,57 +8,57 @@ export default function Selector() {
         {
             id : 1,
             label: "Action",
-            img : <img src='src\Images\image 2.png'></img>,
+            img : <img src='src/Images/image 2.png'></img>,
             bgc: "#FF5209"
 
         },
         {
             id : 2,
             label: "drama",
-            img : <img src='src\Images\image 3.png'></img>,
+            img : <img src='src/Images/image 3.png'></img>,
             bgc: "#D7A4FF"
 
         },
         {
             id :3,
             label:"Romance",
-            img : <img src='src\Images\image 4.png'></img>,
+            img : <img src='src/Images/image 4.png'></img>,
             bgc: "#11B800"
         },
         {
             id : 4,
             label:"Thriller",
-            img : <img src='src\Images\image 6.png'></img>,
+            img : <img src='src/Images/image 6.png'></img>,
             bgc: "#84C2FF"
         },
         {
             id : 5,
             label :"Western",
-            img : <img src='src\Images\image 7.png'/>,
+            img : <img src='src/Images/image 7.png'/>,
             bgc: "#902500"
         },
         {
             id : 6,
             label : "Horror",
-            img : <img src='src\Images\image 8.png'></img>,
+            img : <img src='src/Images/image 8.png'></img>,
             bgc: "#7358FF"
         },
         {
             id : 7,
             label : "Fantasy",
-            img : <img src='src\Images\image 9.png'></img>,
+            img : <img src='src/Images/image 9.png'></img>,
             bgc:"#FF4ADE"
         },
         {
             id:8,
             label : "Music",
-            img : <img src='src\Images\image 10.png'></img>,
+            img : <img src='src/Images/image 10.png'></img>,
             bgc : "#E61E32"
         },
         {
             id:9,
             label : "Fiction",
-            img : <img src='src\Images\image 11.png'></img>,
+            img : <img src='src/Images/image 11.png'></img>,
             bgc : "#6CD061 "
         }
     ]

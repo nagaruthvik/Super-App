@@ -41,7 +41,7 @@ export default function Widgets() {
       <div className={styles.container}>
         <div className={styles.subcontainer1}>
           <div className={styles.banner}>
-            <img src="src\Images\boy.png" alt="Profile" />
+            <img src="src/Images/boy.png" alt="Profile" />
           </div>
           <div className={styles.info}>
             <div className={styles.listData}>
