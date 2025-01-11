@@ -1,6 +1,8 @@
 import { useState } from "react"
 import styles from '../style/form.module.css'
 import { useNavigate } from 'react-router-dom';
+import img1 from '../Images/img1.png';
+
 
 export default function Form() {
     var navigate = useNavigate()
@@ -57,7 +59,8 @@ export default function Form() {
             
             <div className={styles.imagecont}>
                 <h1>Discover new things on Superapp</h1>
-               <img src={process.env.PUBLIC_URL + "/Images/img1.png"} alt="" />
+                <img src={img1} alt="" />
+
 
             </div>
         <form onSubmit={handleSubmit}>
