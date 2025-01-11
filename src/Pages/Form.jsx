@@ -57,7 +57,8 @@ export default function Form() {
             
             <div className={styles.imagecont}>
                 <h1>Discover new things on Superapp</h1>
-               <img src="src/Images/img1.png" alt="" />
+               <img src={process.env.PUBLIC_URL + "/Images/img1.png"} alt="" />
+
             </div>
         <form onSubmit={handleSubmit}>
                 
