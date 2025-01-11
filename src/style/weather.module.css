@@ -1,0 +1,52 @@
+.wimg{
+    width: 70px;
+    height: 70px;
+}
+.mainwe{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    background-color: #FF4ADE;
+}
+
+.time h1{
+    font-size: 1.5rem;
+}
+.weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15vh;
+
+}
+
+.group1{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.group2{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.group3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+}
+.temp{
+    font-size: 2rem;
+}
+.small{
+    font-size: 0.7rem;
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+
+
+.container{
+    background-color: black;
+    min-height: 100dvh;
+    max-height: 100dvh;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items:center ;
+    gap: 7vh;
+}
+
+form .input{
+    width: 45vh;
+    height: 5.5vh;
+    background-color: #292929;
+    
+    border: none;
+    
+}
+
+
+
+.innerdiv1 h1{
+    font-family: 'Single Day', cursive;
+    font-weight: lighter;
+    font-size: 3rem;
+    
+}
+.innerdiv2{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.innerdiv2 input::placeholder{
+    padding-left: 2px;
+}
+
+.button{
+    width: 45vh;
+    height: 5.5vh;
+    border-radius: 20px ;
+    border: none;
+    background-color: #72DB73;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.para{
+    width: 290px;
+}
+
+.innerdiv2 p{
+    color: red;
+}
+
+
+.imagecont {
+    width: 100%; 
+    height: 100vh;
+    
+    background-color: black; 
+}
+
+img {
+    width: 100%;
+    max-height: 100%; 
+    object-fit: cover; 
+    
+}
+.imagecont h1{
+    position: absolute;
+
+    bottom:8vh;
+    color: white;
+    width: 350px;
+    font-size: 2rem;
+   
+    
+}

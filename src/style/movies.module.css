@@ -1,0 +1,47 @@
+.genre {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+
+.movieCard {
+  min-width: 150px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.img{
+  width: 250px;
+  height: 250px;
+}
+.genre{
+  color: #878787;
+}
+.row {
+  display: flex;
+  overflow-x: scroll; /* Enables horizontal scrolling */
+  scroll-behavior: smooth; /* Smooth scrolling */
+  gap: 10px;
+  scrollbar-width: none; /* Hides scrollbar in Firefox */
+}
+
+.row::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in Chrome, Safari, and Edge */
+}
+
+.movieCard {
+  min-width: 150px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.movieCard img {
+  width: 100%;
+  border-radius: 8px;
+}

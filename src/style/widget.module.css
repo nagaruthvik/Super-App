@@ -1,0 +1,263 @@
+body {
+    background-color: black;
+    
+    box-sizing: border-box; 
+    margin: 10px;
+}
+
+.main{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    box-sizing: border-box;
+}
+.container {
+    width: calc(100vw - 60px); 
+    height: calc(40vh - 20px); 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 2fr;  
+    grid-template-areas: 
+        "profile notes doyouknow"
+        "weather notes doyouknow"
+        "timer timer doyouknow"; 
+    gap: 3vh; 
+    box-sizing: border-box; 
+    position: relative;
+}
+
+
+
+.subcontainer1 {
+    grid-area: profile;
+    background-color: #5746EA;
+    display: grid;
+    
+    grid-template-columns: 0.6fr 1fr; 
+    grid-template-rows: 0.5fr 1fr 1fr; 
+    grid-template-areas: 
+        "banner info"
+        "banner info"
+        "banner selection";
+   
+   height: 200px;
+
+}
+
+.banner {
+    grid-area: banner;
+    
+    border-radius: 40px;
+    width: 16vh;
+    border: 5px solid white;
+}
+
+.banner img{
+    height: 100%;
+    border-radius: 30px;
+}
+
+.info {
+    grid-area: info;
+    
+}
+.listData{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 2px;
+    margin-top: 15px;
+    align-items: flex-start;
+}
+.selection {
+    grid-area: selection;
+    
+}
+.chipscont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.chips {
+    padding: 5px;
+    padding-right: auto;
+    margin: 5px;
+    flex: 0 0 25%;
+    border-radius: 10px;
+    background-color: #9F94FF;
+    color: white;
+}
+.subcontainer2 {
+    grid-area: notes;
+    background-color: #F1C75B;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.textbox{
+    width :auto;
+   
+}
+.subcontainer3 {
+    grid-area: doyouknow;
+    background-color: white;
+}
+
+.subcontainer4 {
+    grid-area: weather;
+    height: 130px;
+    background-color: #101744;
+}
+
+.subcontainer5 {
+    grid-area: timer;
+
+    background-color: #1E2343;
+
+    width: 100%;
+    height: auto;
+    
+    
+    
+}
+.button button{
+    position: absolute;
+    bottom: 2vh;
+    right: 5vh;
+    background-color: #148A08;
+    color: white;
+    width: 100px;
+    border-radius: 30px;
+    height: 5vh;
+    
+}
+
+.container > div{
+    border-radius: 12px;
+}
+.timemain{
+    display: flex;
+    gap: 20vh;
+
+    width: 100%;
+    height: 100%;
+}
+.timecircle{
+    border: 10px solid #191E39;
+    border-radius: 100px;
+}
+.timebuttons{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.names{
+    display: flex;
+    gap: 18vh;
+
+}
+
+.names h3{
+    color: #949494;
+    margin-top: 20px;
+}
+.timeholder{
+    display: flex;
+    gap: 22vh;
+    
+}
+
+.sec, .min, .hrs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px; 
+    
+}
+.sec button, .min button, .hrs button {
+    background-color: #1E2343;
+    color: #949494;
+    border: none;
+    padding: 10px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.playbtn button{
+    width: 50vh;
+    background-color: #FF6A6A;
+    height: 4.5vh;
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+.newsimg {
+    position: relative;
+    width: 100%; 
+    height: auto; 
+}
+
+.newsimg img {
+    width: 100%;
+    height: auto; 
+}
+
+.newsimg h5 {
+    position: absolute;
+    bottom: 1%; 
+    left: 50%;
+    transform: translateX(-50%); 
+
+    text-align: center;
+    color: white;
+    font-size: calc(1vw + 10px);
+    background: rgba(0, 0, 0, 0.5); 
+    width: 100%; 
+
+}
+.newsdesc p{
+    margin: 20px;
+    line-height: 1.8;
+    
+}
+
+
+
+
+.notepad {
+    width: 90%;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+    overflow: auto;
+    background-color: #F1C75B;
+    border: none;
+  }
+  
+  .notepad::-webkit-scrollbar {
+    width: 8px; 
+  }
+  
+
+  .notepad::-webkit-scrollbar-track {
+    background-color: #F1C75B;
+    border-radius: 10px;
+  }
+  
+
+  .notepad::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+
